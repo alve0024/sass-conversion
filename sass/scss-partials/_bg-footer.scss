@@ -5,15 +5,15 @@ footer {
     h4{
       font-size: 1.414rem;
       padding: 0.5rem 2rem;
-      color: #7C593C;
+      color: $dark_brown;
     }
     p {
       font-size: 1rem;
       padding: 0.5rem 2rem;
-      color: #222;
+      color: $dark_grey;
     }
     .fa-circle {
-      color: #222;
+      color: $dark_grey;
     }
     h4[lang=de]{
       display:block;

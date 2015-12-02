@@ -1,8 +1,10 @@
+@import "variables";
+@import "bg-layout";
 /***********************************************
                 CONTENT
 ***********************************************/
 header h1{
-    color: #7C593C;
+    color: $dark_brown;
     letter-spacing: 0.1rem;
   i.fa-lg {
     display:block;
@@ -10,7 +12,7 @@ header h1{
     float:left;
     font-size: 7rem;
     line-height: 12.7936rem;
-    color: #C9A689;
+    color: $light_brown;
     ~ span {
       float: right;
       width: 75%;
@@ -30,7 +32,7 @@ header h1{
     line-height: 1.2;
     padding: 2rem 2rem 1rem 2rem;
   }
-  .author {
+  &.author {
     font-size: 1rem;
     padding: 0.2rem 2rem 2rem;
   }
