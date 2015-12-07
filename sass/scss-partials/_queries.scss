@@ -65,11 +65,14 @@
       margin: 0 auto;
     }
     &.content2 {
-      h4 {
+      %fontsize {
         font-size: 1.414rem;
       }
+      h4 {
+        @extend %fontsize;
+      }
       li {
-        font-size: 1.414rem;
+        @extend %fontsize;
       }
     }
   }
